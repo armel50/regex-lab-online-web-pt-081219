@@ -15,11 +15,13 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  p text
+
   text.match(/^[A-Z].+[\.]/) ? true:  false
   
 end
 
-def valid_phone_number?(phone)
-
+def valid_phone_number?(phone) 
+  
+  p phone 
+  text.match(/d{3}[-.\s]d{3}/)
 end
