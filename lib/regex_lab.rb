@@ -23,5 +23,5 @@ end
 def valid_phone_number?(phone) 
   
   p phone 
-  text.match(/d{3}[-.\s]d{3}/)
+  text.match(/d{3}[-.\s]d{3}[-.\s]d{4}/)
 end
